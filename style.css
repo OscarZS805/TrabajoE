@@ -7,3 +7,23 @@ footer, header{
     background-color: black;
 }
 
+.texto,h1{
+    color: rgb(255, 255, 255);
+}
+
+.img3{
+    height: 200px;
+    border: solid 10px rgba(0, 0, 0, 0.244);
+    width: auto;
+    border-radius: 10px;
+}
+
+.texti{
+    text-align: right;
+}
+
+.menu{
+    text-align: left;
+    height: 40px;
+    width: auto;
+}
