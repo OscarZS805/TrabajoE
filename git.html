@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto en HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .center {
+            text-align: center;
+        }
+
+        h1 {
+            color: #000000;
+            text-align: center;
+        }
+        p {
+            color: #161616;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <img src="descarga.png" alt="GitHub Logo">
+        </div>
+        <h1>GitHub</h1>
+        <p>Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un
+            repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten
+            trabajar sin conexión o de forma remota con facilidad.</p>
+        <h1>Aspectos básicos de GitHub</h1>
+        <p>Cada vez que se guarda el trabajo, Git crea una confirmación. Una confirmación es una instantánea de todos
+            los archivos en un momento dado. Si un archivo no ha cambiado de una confirmación a la siguiente, Git usa el
+            archivo almacenado anteriormente.</p>
+<center>
+            <img src="aspectos.png" alt="">
+        </center>
+        <h1>Ramas</h1>
+        <p>Cada desarrollador guarda los cambios en su propio repositorio de código local. Como resultado, puede haber
+            muchos cambios diferentes basados en la misma confirmación. Git proporciona herramientas para aislar los
+            cambios y volver a combinarlos posteriormente. Las ramas, que son punteros ligeros para el trabajo en curso,
+            administran esta separación.</p>
+        <h1>Archivos y confirmaciones</h1>
+        <p>Los archivos de Git se encuentran en uno de estos tres estados: modificados, almacenados provisionalmente o
+            confirmados. Cuando se modifica un archivo por primera vez, los cambios solo existen en el directorio de
+            trabajo. Todavía no forman parte de una confirmación ni del historial de desarrollo. El desarrollador debe
+            almacenar provisionalmente los archivos modificados que se incluirán en la confirmación. El área de
+            almacenamiento provisional contiene todos los cambios que se incluirán en la siguiente confirmación. Una vez
+            que el desarrollador esté satisfecho con los archivos almacenados provisionalmente, los archivos se
+            empaquetan como una confirmación con un mensaje que describe lo que ha cambiado.</p>
+            <center>
+                <img src="archivos.png" alt="">
+            </center>
+        <br>
+        <h1>Comandos mms utilizados en Git</h1>
+        <ul>
+            <li><strong>git init:</strong> Inicializa un nuevo repositorio Git.</li>
+            <li><strong>git clone [URL]:</strong> Clona un repositorio remoto en tu máquina local.</li>
+            <li><strong>git add [file]:</strong> Añade un archivo o cambios al área de preparación.</li>
+            <li><strong>git commit -m "[message]":</strong> Guarda los cambios en el repositorio con un mensaje descriptivo.</li>
+            <li><strong>git status:</strong> Muestra el estado actual del repositorio.</li>
+            <li><strong>git pull:</strong> Obtiene cambios desde un repositorio remoto y los fusiona con tu rama local.</li>
+            <li><strong>git push:</strong> Sube los cambios locales al repositorio remoto.</li>
+            <li><strong>git branch:</strong> Lista todas las ramas locales.</li>
+            <li><strong>git checkout [branch]:</strong> Cambia a la rama especificada.</li>
+            <li><strong>git merge [branch]:</strong> Fusiona los cambios de otra rama a la rama actual.</li>
+            <li><strong>git log:</strong> Muestra el historial de commits.</li>
+        </ul>
+    </div>
+</body>
+</html>
